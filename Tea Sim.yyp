@@ -1,0 +1,47 @@
+{
+  "$GMProject":"v1",
+  "%Name":"Tea Sim",
+  "AudioGroups":[
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+  "configs":{
+    "children":[],
+    "name":"Default",
+  },
+  "defaultScriptType":0,
+  "Folders":[
+    {"$GMFolder":"","%Name":"Floor","folderPath":"folders/Floor.yy","name":"Floor","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"startMenu","folderPath":"folders/startMenu.yy","name":"startMenu","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Obj","folderPath":"folders/startMenu/Obj.yy","name":"Obj","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Sprite","folderPath":"folders/startMenu/Sprite.yy","name":"Sprite","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2024.14.4.222",
+  },
+  "name":"Tea Sim",
+  "resources":[
+    {"id":{"name":"obj_exit_button","path":"objects/obj_exit_button/obj_exit_button.yy",},},
+    {"id":{"name":"obj_start_button","path":"objects/obj_start_button/obj_start_button.yy",},},
+    {"id":{"name":"TeaObj","path":"objects/TeaObj/TeaObj.yy",},},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Start","path":"rooms/Start/Start.yy",},},
+    {"id":{"name":"Main_screen","path":"sprites/Main_screen/Main_screen.yy",},},
+    {"id":{"name":"spr_exit_button","path":"sprites/spr_exit_button/spr_exit_button.yy",},},
+    {"id":{"name":"spr_start_button","path":"sprites/spr_start_button/spr_start_button.yy",},},
+    {"id":{"name":"Tea","path":"sprites/Tea/Tea.yy",},},
+  ],
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"Start","path":"rooms/Start/Start.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+}
