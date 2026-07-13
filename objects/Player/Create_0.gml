@@ -1,0 +1,1 @@
+spd = 3;  // movement speed in pixels per step

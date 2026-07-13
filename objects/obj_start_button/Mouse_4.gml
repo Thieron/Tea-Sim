@@ -1,1 +1,1 @@
-room_goto_next();
+Playerroom_goto_next();
