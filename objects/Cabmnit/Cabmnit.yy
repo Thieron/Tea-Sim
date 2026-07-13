@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Lower_Cabmnit",
+  "%Name":"Cabmnit",
   "eventList":[],
   "managed":true,
-  "name":"Lower_Cabmnit",
+  "name":"Cabmnit",
   "overriddenProperties":[],
   "parent":{
     "name":"Obj",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Lower_Cabmnit_Sprite",
-    "path":"sprites/Lower_Cabmnit_Sprite/Lower_Cabmnit_Sprite.yy",
+    "name":"Cabmnit_Sprite",
+    "path":"sprites/Cabmnit_Sprite/Cabmnit_Sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

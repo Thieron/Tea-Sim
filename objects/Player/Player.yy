@@ -10,8 +10,8 @@
   "name":"Player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tea Sim",
-    "path":"Tea Sim.yyp",
+    "name":"Player",
+    "path":"folders/Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Player_sprite",
+    "path":"sprites/Player_sprite/Player_sprite.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

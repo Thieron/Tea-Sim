@@ -1,1 +1,1 @@
-Playerroom_goto_next();
+room = Room1
