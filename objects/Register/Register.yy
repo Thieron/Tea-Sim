@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Obj",
-    "path":"folders/Structures/Types/Obj.yy",
+    "path":"folders/Structures/Counter+/Obj.yy",
   },
   "parentObjectId":{
     "name":"Furniture",
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Register_Sprite",
+    "path":"sprites/Register_Sprite/Register_Sprite.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

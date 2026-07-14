@@ -6,8 +6,8 @@
   "name":"Furniture",
   "overriddenProperties":[],
   "parent":{
-    "name":"Structures",
-    "path":"folders/Structures.yy",
+    "name":"Counter+",
+    "path":"folders/Structures/Counter+.yy",
   },
   "parentObjectId":null,
   "persistent":false,

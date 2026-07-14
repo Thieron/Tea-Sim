@@ -14,6 +14,7 @@
   "frames":[
     {"$GMSpriteFrame":"v1","%Name":"5aac224d-2b35-40b1-8aa0-d6f6a13e830c","name":"5aac224d-2b35-40b1-8aa0-d6f6a13e830c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"e5d87550-0928-48d8-90f9-cae36ebbbcf2","name":"e5d87550-0928-48d8-90f9-cae36ebbbcf2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"873aa721-0a93-4d1b-af0c-30d4cc2165b9","name":"873aa721-0a93-4d1b-af0c-30d4cc2165b9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"dec637bd-d451-4ba3-8ebd-5def1c4ce5a1","name":"dec637bd-d451-4ba3-8ebd-5def1c4ce5a1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
@@ -28,7 +29,7 @@
   "origin":0,
   "parent":{
     "name":"Sprite",
-    "path":"folders/Structures/Types/Sprite.yy",
+    "path":"folders/Structures/Counter+/Sprite.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -51,7 +52,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":3.0,
+    "length":4.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -77,8 +78,11 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e5d87550-0928-48d8-90f9-cae36ebbbcf2","path":"sprites/Cabmnit_Sprite/Cabmnit_Sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"bc3d7c05-7e69-4382-8451-709ff7909e92","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"873aa721-0a93-4d1b-af0c-30d4cc2165b9","path":"sprites/Cabmnit_Sprite/Cabmnit_Sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6a9d78c7-8c82-4b92-8278-aa77aa7ba16c","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dec637bd-d451-4ba3-8ebd-5def1c4ce5a1","path":"sprites/Cabmnit_Sprite/Cabmnit_Sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e51127b0-122b-4280-ae15-4a0904993c3b","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"e51127b0-122b-4280-ae15-4a0904993c3b","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

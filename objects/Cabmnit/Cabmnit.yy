@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Obj",
-    "path":"folders/Structures/Types/Obj.yy",
+    "path":"folders/Structures/Counter+/Obj.yy",
   },
   "parentObjectId":{
     "name":"Furniture",
