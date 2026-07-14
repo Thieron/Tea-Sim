@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Floor",
-    "path":"folders/Floor.yy",
+    "name":"Sprite",
+    "path":"folders/Floor/Sprite.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
