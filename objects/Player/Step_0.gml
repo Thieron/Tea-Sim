@@ -46,3 +46,14 @@ var top_edge    = sprite_height / 2;
 var bottom_edge = room_height - sprite_height / 2;
 x = clamp(x, left_edge, right_edge);
 y = clamp(y, top_edge, bottom_edge);
+
+
+if (keyboard_check_pressed(ord("F"))) {
+    invOpen = !invOpen;
+}
+
+// If inventory is open, stop here — no movement, no grabbing
+if (invOpen) {
+    image_speed = 0;
+    exit;   // skips the rest of the Step event
+}
