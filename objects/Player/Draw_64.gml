@@ -32,11 +32,10 @@ if (invOpen) {
     draw_text(px + panel_w / 2, py + 30, "Held: " + string(curInv) + " / " + string(__invMax));
 
     // List each item in inv[]
-    draw_set_halign(fa_left);
-    for (var i = 0; i < array_length(inv); i++) {
-        draw_text(px + 20, py + 60 + (i * 20), "Item " + string(i) + ": " + string(inv[i]));
-    }
-
+	for (var i = 0; i < array_length(inv); i++) {
+	    var item = inv[i];
+	    draw_text(px + 40, py + 60 + (i * 20), item.name + ": " + string(item.qty));
+	}
     // reset
     draw_set_halign(fa_left);
     draw_set_color(c_white);

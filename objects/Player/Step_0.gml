@@ -1,3 +1,23 @@
+if (keyboard_check_pressed(ord("F"))) {
+    invOpen = !invOpen;
+}
+
+if (invOpen) {
+	image_speed = 0;
+	exit;
+}
+
+
+if (instance_exists(Register) && Register.regOpen) { 
+	image_speed = 0;
+	exit; 
+}
+// If inventory is open, stop here — no movement, no grabbing
+if (invOpen) {
+    image_speed = 0;
+    exit;   // skips the rest of the Step event
+}
+
 // Inputs
 var move_x = (keyboard_check(vk_right) || keyboard_check(ord("D")))
            - (keyboard_check(vk_left)  || keyboard_check(ord("A")));
@@ -48,12 +68,4 @@ x = clamp(x, left_edge, right_edge);
 y = clamp(y, top_edge, bottom_edge);
 
 
-if (keyboard_check_pressed(ord("F"))) {
-    invOpen = !invOpen;
-}
 
-// If inventory is open, stop here — no movement, no grabbing
-if (invOpen) {
-    image_speed = 0;
-    exit;   // skips the rest of the Step event
-}
