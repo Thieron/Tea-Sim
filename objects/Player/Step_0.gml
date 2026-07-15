@@ -4,12 +4,23 @@ var move_x = (keyboard_check(vk_right) || keyboard_check(ord("D")))
 var move_y = (keyboard_check(vk_down)  || keyboard_check(ord("S")))
            - (keyboard_check(vk_up)    || keyboard_check(ord("W")));
 
-//Normalize diagonal speed 
+// Face direction based on raw input (before speed math)
+if (move_x != 0 || move_y != 0) {
+    if (move_y > 0)      sprite_index = Player_sprite_Down;
+    else if (move_y < 0) sprite_index = Player_sprite_Up;
+    else if (move_x > 0) { sprite_index = Player_sprite_Side; image_xscale = 1; }
+    else if (move_x < 0) { sprite_index = Player_sprite_Side; image_xscale = -1; }
+    image_speed = 0.5;
+} else {
+    image_speed = 0;
+    image_index = 0;
+}
+
+// Normalize diagonal speed
 if (move_x != 0 && move_y != 0) {
     move_x *= 0.7071;
     move_y *= 0.7071;
 }
-
 move_x *= spd;
 move_y *= spd;
 
@@ -20,7 +31,6 @@ if (!place_meeting(x + move_x, y, Furniture)) {
         x += sign(move_x);
     }
 }
-
 if (!place_meeting(x, y + move_y, Furniture)) {
     y += move_y;
 } else {
@@ -29,11 +39,10 @@ if (!place_meeting(x, y + move_y, Furniture)) {
     }
 }
 
-// Stay inside room 
+// Stay inside room
 var left_edge   = sprite_width / 2;
 var right_edge  = room_width  - sprite_width / 2;
 var top_edge    = sprite_height / 2;
 var bottom_edge = room_height - sprite_height / 2;
-
 x = clamp(x, left_edge, right_edge);
 y = clamp(y, top_edge, bottom_edge);

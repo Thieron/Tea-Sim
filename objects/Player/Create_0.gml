@@ -1,1 +1,2 @@
-spd = 3;  // movement speed in pixels per step
+spd = 2;   // pixels per step, tweak to taste
+image_speed = 0;
