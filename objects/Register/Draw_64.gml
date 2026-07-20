@@ -69,6 +69,10 @@ if (regPage == "main") {
         regPage = "main";
     }
 
+    // ---- PAGE CONTENT GOES HERE ----
+    // if (regPage == "shop")     { ... }
+    // if (regPage == "checkout") { ... }
+    // etc.
 }
 
 // reset draw state
